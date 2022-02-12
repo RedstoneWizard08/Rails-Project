@@ -1,0 +1,50 @@
+image:
+  file: .gitpod.Dockerfile
+ports:
+  - port: 3000
+    onOpen: open-browser
+tasks:
+  - init: "bundle install"
+  - command: "rails s"
+vscode:
+  extensions:
+    - formulahendry.auto-close-tag
+    - HansUXdev.bootstrap5-snippets
+    - twxs.cmake
+    - ms-vscode.cmake-tools
+    - Equinusocio.vsc-community-material-theme
+    - iocave.customize-ui
+    - ms-azuretools.vscode-docker
+    - mikestead.dotenv
+    - EditorConfig.EditorConfig
+    - usernamehw.errorlens
+    - Janne252.fontawesome-autocomplete
+    - vscode.github-browser
+    - GitHub.vscode-pull-request-github
+    - eamodio.gitlens
+    - idleberg.icon-fonts
+    - ms-kubernetes-tools.vscode-kubernetes-tools
+    - ms-vscode.live-server
+    - Equinusocio.vsc-material-theme
+    - equinusocio.vsc-material-theme-icons
+    - iocave.monkey-patch
+    - bung87.rails
+    - Vense.rails-snippets
+    - rebornix.ruby
+    - castwide.solargraph
+    - connorshea.vscode-ruby-test-adapter
+    - mbessey.vscode-rufo
+    - vortizhe.simple-ruby-erb
+    - sianglim-slim.slim
+    - sianglim.slim
+    - pmbenjamin.vscode-snyk
+    - alexcvzz.vscode-sqlite
+    - mtxr.sqltools
+    - mtxr.sqltools-driver-sqlite
+    - hbenl.test-adapter-converter
+    - hbenl.vscode-test-explorer
+    - wingrunr21.vscode-ruby
+    - bung87.vscode-gemfile
+    - dbaeumer.vscode-eslint
+    - dbaeumer.jshint
+    - HookyQR.beautify
